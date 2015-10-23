@@ -1,11 +1,5 @@
 <?php
 /** Enable W3 Total Cache */
-define('WP_CACHE', true); // Added by W3 Total Cache
-
-/** Enable W3 Total Cache Edge Mode */
-define('W3TC_EDGE_MODE', true); // Added by W3 Total Cache
-
-/** Enable W3 Total Cache */
  //Added by WP-Cache Manager
 
 /**
@@ -32,10 +26,10 @@ define('W3TC_EDGE_MODE', true); // Added by W3 Total Cache
 define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'robins');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'myfunzone2030');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
